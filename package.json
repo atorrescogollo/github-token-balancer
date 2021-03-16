@@ -1,0 +1,29 @@
+{
+  "name": "github-token-balancer",
+  "version": "1.0.0",
+  "description": "GitHub RateLimit Token Balancer",
+  "main": "server.js",
+  "dependencies": {
+    "anyproxy": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atorrescogollo/github-token-balancer.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Account",
+    "Rate-limit",
+    "Balancer"
+  ],
+  "author": "Alvaro Torres Cogollo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/atorrescogollo/github-token-balancer/issues"
+  },
+  "homepage": "https://github.com/atorrescogollo/github-token-balancer#readme"
+}
