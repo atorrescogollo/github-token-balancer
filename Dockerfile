@@ -9,4 +9,4 @@ RUN npm install .
 
 EXPOSE 8001 8002
 
-ENTRYPOINT [ "/app/node_modules/anyproxy/bin/anyproxy", "--intercept", "--rule", "/app/rule.js" ]
+ENTRYPOINT [ "/app/node_modules/anyproxy/bin/anyproxy", "--intercept", "--silent", "--rule", "/app/rule.js" ]
